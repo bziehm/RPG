@@ -1,8 +1,7 @@
 userinput = input("enter data:")
-userinput = userinput.lower()
-if userinput == "q" or "quit" or "Quit" or "QUIT":
+
+
+if userinput == "q" or userinput.lower() == "quit":
     print ("something arbitrary, ha")
-else:
-    print ("Invalid response")
 
     
