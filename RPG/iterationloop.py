@@ -1,1 +1,2 @@
 userinput = input("<")
+print (userinput)
