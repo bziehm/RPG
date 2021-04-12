@@ -1,6 +1,7 @@
 userinput = input("enter data:")
 
-if userinput.lower() == "q" or userinput.lower() == "quit":
-    print ("something arbitrary, ha")
+def inpfunction(userinput):
+    if userinput.lower() == "q" or userinput.lower() == "quit":
+        return ("something arbitrary, ha")
 
     
