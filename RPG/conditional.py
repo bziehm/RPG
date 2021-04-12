@@ -1,4 +1,5 @@
 userinput = input("enter data:")
-if userinput = "q":
+userinput = userinput.lower()
+if userinput == "q":
     print ("something arbitrary, ha")
     
