@@ -1,4 +1,5 @@
 userinput = True
+print(userinput)
 
 userinput = input("<")
 
