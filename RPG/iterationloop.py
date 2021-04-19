@@ -1,5 +1,7 @@
-userinput = input("<")
 userinput = True
+
+userinput = input("<")
+
 b = "false"
 def iterloop(userinput):
     if userinput.lower() == "q" or userinput.lower() == "quit":
