@@ -1,6 +1,5 @@
 
 
-data = {"key":"value"}
 rooms_data = {
     "Prison Cell": "Description 1",
     "Hallway": "Description 2",
