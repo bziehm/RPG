@@ -1,8 +1,11 @@
 userinput = input("<")
 userinput = True
-b = false
+b = "false"
 def iterloop(userinput):
     if userinput.lower() == "q" or userinput.lower() == "quit":
-    return userinput
-else:
-    return b
+        return userinput
+    else:
+        return b
+
+while userinput == True:
+    print(userinput)
