@@ -1,3 +1,5 @@
 userinput = input("<")
-userinput = True 
+userinput = True
+if userinput.lower() == "q" or userinput.lower() == "quit":
+    
 print (userinput)
