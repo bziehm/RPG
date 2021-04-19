@@ -7,5 +7,7 @@ def function1(userinput):
     else:
         return b
 
+test= function1(userinput)
+print (test)
 
 
