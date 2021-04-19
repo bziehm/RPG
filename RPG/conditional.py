@@ -1,5 +1,6 @@
 userinput = input("enter data:")
 a= "something arbitrary"
+b= "keep trying"
 def function1(userinput):
     
     if userinput.lower() == "q" or userinput.lower() == "quit":
