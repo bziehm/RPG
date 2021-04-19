@@ -1,5 +1,5 @@
 
-
+Dict4Rooms = {}
 data = {"key":"value"}
 rooms_data = {
     "Prison Cell": "Description 1",
@@ -10,7 +10,7 @@ rooms_data = {
     "exit to freedom": "Description 6"}
     
 import csv
-directions="directions.csv"
+directions="RPGrooms.csv"
  
 DictionaryRooms()
 with open (directions, 'r') as data:
