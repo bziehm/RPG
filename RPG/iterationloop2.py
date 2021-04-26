@@ -5,10 +5,13 @@ def iterloop(userinput):
     userinput = ''
 
     if userinput.lower() != "q" or userinput.lower() != "quit":
-        return b
+        userinput=False
 
     else:
-        return a
+        userinput=True
+
+call=iterloop(userinput)
+print(call)
             
             
                     
