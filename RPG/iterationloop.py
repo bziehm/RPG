@@ -1,7 +1,7 @@
 userinput = True
 print(userinput)
 
-userinput = input("<")
+userinput = input("Enter Data<")
 print(userinput)
 def iterloop(userinput):
     if userinput.lower() == "q" or userinput.lower() == "quit":
@@ -10,4 +10,4 @@ def iterloop(userinput):
         userinput = True
 
 while userinput != "q" or "quit":
-    print(userinput)
+    userinput
