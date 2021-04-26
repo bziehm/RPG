@@ -11,4 +11,5 @@ def iterloop(userinput):
             return result
         else:
             result += userinput
-        
+
+iloop = iterloop()
