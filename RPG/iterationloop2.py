@@ -1,5 +1,12 @@
-userinput = ''
+userinput=input("type here>")
 def iterloop(userinput):
-    while userinput.lower() != "q" or userinput.lower() != "quit":
-            userinput=input(">")
-print("test" + interloop)
+    userinput = ''
+
+    if userinput.lower() != "q" or userinput.lower() != "quit":
+        return b
+
+    else:
+        return a
+            
+            
+                    
