@@ -1,4 +1,6 @@
 userinput=input("type here>")
+b =userinput
+a = quit()
 def iterloop(userinput):
     userinput = ''
 
