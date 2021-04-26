@@ -7,9 +7,9 @@ def iterloop(userinput):
     
     print("enter q or quit to exit")
     while True:
-        
         if userinput.lower() == "q" or userinput.lower() == "quit":
             return quit()
+        break
            
     
         else:
