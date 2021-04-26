@@ -9,5 +9,7 @@ def iterloop(userinput):
     else:
         userinput = True
 
-while userinput != "q" or "quit":
+while True:
     userinput
+else:
+    print("end program")
