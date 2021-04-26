@@ -1,4 +1,4 @@
-userinput=input("type here")
+userinput=""
 
 def iterloop(userinput):
     userinput=""
