@@ -12,5 +12,3 @@ def iterloop(userinput):
         else:
             result += userinput
         
-else:
-    print("end program")
