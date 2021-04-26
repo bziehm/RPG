@@ -2,8 +2,10 @@ userinput = True
 print(userinput)
 
 userinput = input("Enter Data<")
-print(userinput)
+
 def iterloop(userinput):
+    result=0
+    print("enter q or quit to exit")
     if userinput.lower() == "q" or userinput.lower() == "quit":
         userinput = False
     else:
