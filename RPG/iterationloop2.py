@@ -1,4 +1,4 @@
-userinput=input("type here>")
+userinput=input("type here")
 
 def iterloop(userinput):
     userinput=""
@@ -7,10 +7,11 @@ def iterloop(userinput):
         if userinput.lower() == "q" or userinput.lower() == "quit":
             print ("goodbye")
             break
+        else:
+            userinput
 
 call=iterloop(userinput)
-print(call)
-        
+print (call)
 
             
                     
