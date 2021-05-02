@@ -8,12 +8,18 @@ rooms_data = {
     "exit to freedom": "There is an exit to the north through the plumbing pipes. "}
 print (rooms_data['Hallway'])
 
+
+import csv as cv
+with open('RPGrooms.csv', 'r') as F0:
+    out=cv.DictReader(F0)
+    for row in out:
+        
 userinput=""
 
 def iterloop(userinput):
     
     while True:
-        userinput=str(input("type here"))
+        userinput = str(input("type here"))
         if userinput.lower() == "q" or userinput.lower() == "quit":
             print ("goodbye")
             break
