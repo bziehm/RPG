@@ -18,7 +18,7 @@ def iterloop(userinput):
             print ("goodbye")
             break
         else:
-            userinput
+            userinput = {rooms_data}
 
 call=iterloop(userinput)
 print (call)
