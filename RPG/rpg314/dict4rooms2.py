@@ -9,7 +9,8 @@ rooms_data = {
 print (rooms_data['Hallway'])
 
 
-import csv as cv
+import csv
+
 with open('RPGrooms.csv', 'r') as F0:
     out=cv.DictReader(F0)
     for row in out:
