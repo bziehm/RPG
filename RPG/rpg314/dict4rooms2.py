@@ -10,7 +10,7 @@ rooms_data = {
 
 
 import csv as cv
-required_row=int(input()) 
+required_row=str(input()) 
 row_counter=0 
 with open('RPGRooms.csv','r') as F0:
     for row in F0:
