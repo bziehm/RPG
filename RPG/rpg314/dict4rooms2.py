@@ -6,7 +6,7 @@ rooms_data = {
     "unlocked cell": "An empty cell with a bed in one corner and a toilet in the North wall.",
     "room behind toilet": "Appears to be a hole behind the toilet that leads to a small plumbing room.",
     "exit to freedom": "There is an exit to the north through the plumbing pipes. "}
-print (rooms_data['Hallway'])
+
 
 
 import csv as cv
