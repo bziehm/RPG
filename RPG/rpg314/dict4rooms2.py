@@ -8,16 +8,6 @@ rooms_data = {
     "exit to freedom": "There is an exit to the north through the plumbing pipes. "}
 
 
-
-import csv as cv
-required_row=str(input()) 
-row_counter=0 
-with open('RPGRooms.csv','r') as F0:
-    for row in F0:
-        row_counter+=1
-        if row_counter==required_row:
-            print(row)
-    		 
 userinput=""
 
 def iterloop(userinput):
@@ -32,5 +22,15 @@ def iterloop(userinput):
 
 call=iterloop(userinput)
 print (call)
+
+import csv as cv
+required_row=str(input()) 
+row_counter=0 
+with open('RPGRooms.csv','r') as F0:
+    for row in F0:
+        row_counter+=1
+        if row_counter==required_row:
+            print(row)
+    		 
 
             
