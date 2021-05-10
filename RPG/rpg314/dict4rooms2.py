@@ -18,14 +18,12 @@ def iterloop(userinput):
             print ("goodbye")
             break
         else:
-            import csv as cv
-            required_row=str(input("test")) 
-            row_counter=0 
-            with open('RPGrooms.csv','r') as F0:
-                for row in F0:
-                row_counter+=1
-                if row_counter==required_row:
-                    print(row)
+            import csv
+
+with open('RPGrooms.csv') as csvDataFile:
+    csvReader = csv.reader(csvDataFile)
+    for row in csvReader:
+        print(row)
 call=iterloop(userinput)
 print (call)
 
